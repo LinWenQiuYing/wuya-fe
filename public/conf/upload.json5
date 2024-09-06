@@ -1,0 +1,13 @@
+{
+  availableCheck: {
+    enable: true,
+    expired: "30s"
+  },
+  limitation: {
+    size: { max:  "200M" },
+    parallel: { max:  5 },
+    name: {
+      maxLength: "256b"
+    }
+  }
+}

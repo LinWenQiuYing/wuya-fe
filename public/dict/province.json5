@@ -1,0 +1,138 @@
+[
+  {
+    name: '北京市',
+    value: 'BEIJING',
+  },
+  {
+    name: '天津市',
+    value: 'TIANJIN',
+  },
+  {
+    name: '上海市',
+    value: 'SHANGHAI',
+  },
+  {
+    name: '重庆市',
+    value: 'CHONGQING',
+  },
+  {
+    name: '河北省',
+    value: 'HEBEI',
+  },
+  {
+    name: '山西省',
+    value: 'SHANXI',
+  },
+  {
+    name: '台湾省',
+    value: 'TAIWAN',
+  },
+  {
+    name: '辽宁省',
+    value: 'LIAONING',
+  },
+  {
+    name: '吉林省',
+    value: 'JILIN',
+  },
+  {
+    name: '黑龙江省',
+    value: 'HEILONGJIANG',
+  },
+  {
+    name: '江苏省',
+    value: 'JIANGSU',
+  },
+  {
+    name: '浙江省',
+    value: 'ZHEJIANG',
+  },
+  {
+    name: '安徽省',
+    value: 'ANHUI',
+  },
+  {
+    name: '福建省',
+    value: 'FUJIAN',
+  },
+  {
+    name: '江西省',
+    value: 'JIANGXI',
+  },
+  {
+    name: '山东省',
+    value: 'SHANDONG',
+  },
+  {
+    name: '河南省',
+    value: 'HENAN',
+  },
+  {
+    name: '湖北省',
+    value: 'HUBEI',
+  },
+  {
+    name: '湖南省',
+    value: 'HUNAN',
+  },
+  {
+    name: '广东省',
+    value: 'GUANGDONG',
+  },
+  {
+    name: '甘肃省',
+    value: 'GANSU',
+  },
+  {
+    name: '四川省',
+    value: 'SICHUAN',
+  },
+  {
+    name: '贵州省',
+    value: 'GUIZHOU',
+  },
+  {
+    name: '海南省',
+    value: 'HAINAN',
+  },
+  {
+    name: '云南省',
+    value: 'YUNNAN',
+  },
+  {
+    name: '青海省',
+    value: 'QINGHAI',
+  },
+  {
+    name: '陕西省',
+    value: 'SHAANXI',
+  },
+  {
+    name: '广西壮族自治区',
+    value: 'GUANGXIZHUANGZU',
+  },
+  {
+    name: '西藏自治区',
+    value: 'XIZANGZHUANGZU',
+  },
+  {
+    name: '宁夏回族自治区',
+    value: 'NINGXIAHUIZU',
+  },
+  {
+    name: '新疆维吾尔自治区',
+    value: 'XINJIANGWEIWURUZIQU',
+  },
+  {
+    name: '内蒙古自治区',
+    value: 'NEIMENGGU',
+  },
+  {
+    name: '澳门特别行政区',
+    value: 'AOMEN',
+  },
+  {
+    name: '香港特别行政区',
+    value: 'XIANGGANG',
+  },
+]

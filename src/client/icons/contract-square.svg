@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#6170FF"/>
+      <stop offset="41.19%" stop-color="#A8B4FF"/>
+      <stop offset="100%" stop-color="#CEDAFF"/>
+    </linearGradient>
+    <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#EFF3FF" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="g" x1="141.93%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#B0BCFF"/>
+      <stop offset="100%" stop-color="#7280FF"/>
+    </linearGradient>
+    <linearGradient id="i" x1="136.73%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#B0BCFF"/>
+      <stop offset="100%" stop-color="#7280FF"/>
+    </linearGradient>
+    <linearGradient id="j" x1="158.96%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#B0BCFF"/>
+      <stop offset="100%" stop-color="#7280FF"/>
+    </linearGradient>
+    <linearGradient id="m" x1="-3.78%" x2="95.67%" y1="123.28%" y2="0%">
+      <stop offset="0%" stop-color="#97ADFF"/>
+      <stop offset="100%" stop-color="#383BFB" stop-opacity=".79"/>
+    </linearGradient>
+    <filter id="e" width="155%" height="152.4%" x="-27.5%" y="-16.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.670588235 0 0 0 0 0.749019608 0 0 0 0 1 0 0 0 1 0"/>
+    </filter>
+    <filter id="k" width="191.7%" height="184.6%" x="-45.8%" y="-26.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+    </filter>
+    <path id="d" d="M18.89 0C19.5 0 20 .47 20 1.05v18.9c0 .58-.5 1.05-1.11 1.05H1.1C.5 21 0 20.53 0 19.95V1.05C0 .47.5 0 1.11 0H18.9Z"/>
+    <path id="l" d="M22 14c1.81 0 3.29 1.5 3.29 3.36 0 1.26-.69 2.36-1.7 2.93l.52 2.62h2.42c.57 0 1.05.43 1.11 1L28 27H16l.41-3.11c.07-.56.55-.98 1.1-.98h2.38l.52-2.62c-1.01-.57-1.7-1.67-1.7-2.93A3.32 3.32 0 0 1 22 14Zm.72.87a.46.46 0 1 0-.3.87c.73.25 1.23.95 1.23 1.74a.46.46 0 0 0 .93 0c0-1.19-.76-2.23-1.86-2.61Z"/>
+    <rect id="a" width="30" height="30" x="0" y="0" rx="4"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="c" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask><use xlink:href="#a" fill="url(#b)"/>
+    <g mask="url(#c)">
+      <g transform="translate(5 5)">
+        <mask id="h" fill="#fff">
+          <use xlink:href="#d"/>
+        </mask>
+        <use xlink:href="#d" fill="#000" filter="url(#e)"/>
+        <use xlink:href="#d" fill="url(#f)"/>
+        <path fill="url(#g)" fill-rule="nonzero" d="M3.42 13.81v-1.62h8.25v1.62z" mask="url(#h)"/>
+        <path fill="url(#i)" fill-rule="nonzero" d="M3.42 5.69V4.06h13v1.63z" mask="url(#h)"/>
+        <path fill="url(#j)" fill-rule="nonzero" d="M3.42 9.75V8.13h9.29v1.62z" mask="url(#h)"/>
+      </g>
+    </g>
+    <g mask="url(#c)">
+      <use xlink:href="#l" fill="#000" filter="url(#k)"/>
+      <use xlink:href="#l" fill="url(#m)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+[
+  {
+    name: '企业主/合伙人/董事长/CEO',
+    value: 'BUSINESS_OWNER_PARTNER_CHAIRMAN_CEO',
+  },
+  {
+    name: '校长/院长/主任',
+    value: 'PRESIDENT_DIRECTOR_HEAD',
+  },
+  {
+    name: 'CIO/CTO',
+    value: 'CIO_CTO',
+  },
+  {
+    name: 'CFO/COO',
+    value: 'CFO_COO',
+  },
+  {
+    name: '副总裁/总监/处长',
+    value: 'VICE_PRESIDENT_DIRECTOR_DEPARTMENT_HEAD',
+  },
+  {
+    name: '投资经理',
+    value: 'INVESTMENT_MANAGER',
+  },
+  {
+    name: '产品/项目经理',
+    value: 'PRODUCT_PROJECT_MANAGER',
+  },
+  {
+    name: '市场/销售/商务/公关',
+    value: 'MARKETING_SALES_BUSINESS_PUBLIC_RELATIONS',
+  },
+  {
+    name: '财务/人力/行政/法务',
+    value: 'FINANCE_HR_ADMIN_LEGAL',
+  },
+  {
+    name: '咨询顾问/售前',
+    value: 'CONSULTANT_PRE_SALES',
+  },
+  {
+    name: '架构师/工程师/研发/开发/测试',
+    value: 'ARCHITECT_ENGINEER_R_AND_D_DEVELOPER_TESTER',
+  },
+  {
+    name: '媒体',
+    value: 'MEDIA_PROFESSIONAL',
+  },
+  {
+    name: '医务人员',
+    value: 'MEDICAL_STAFF',
+  },
+  {
+    name: '教授/老师',
+    value: 'PROFESSOR_TEACHER',
+  },
+  {
+    name: '学生',
+    value: 'STUDENT',
+  },
+]

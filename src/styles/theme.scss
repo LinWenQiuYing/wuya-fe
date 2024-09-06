@@ -1,0 +1,85 @@
+$icon-default-color: #b3b8c7;
+
+// 字体颜色
+$text-color-primary: #2d364d;
+$text-color-secondary: #6d7588;
+
+//背景颜色
+$background-color-light: #f5f6fa;
+$background-color-base: #f2f2f2;
+
+// layout 菜单背景色
+$bg-layout-menu: #f9f4f6;
+
+// border radius
+$border-radius-xxl: 8px;
+$border-radius-xl: 6px;
+$border-radius-lg: 5px;
+$border-radius-md: 4px;
+$border-radius-sm: 2px;
+$border-radius-base: 2px;
+
+// padding
+$padding-xxl: 30px;
+$padding-xl: 24px;
+$padding-lg: 20px;
+$padding-md: 16px;
+$padding-sm: 12px;
+$padding-xs: 8px;
+$padding-xss: 4px;
+
+// margin
+$margin-xxl: 30px;
+$margin-xl: 24px;
+$margin-lg: 20px;
+$margin-md: 16px;
+$margin-sm: 12px;
+$margin-xs: 8px;
+$margin-xss: 4px;
+
+// font-size
+$font-size-xxl: 20px;
+$font-size-xl: 18px;
+$font-size-lg: 16px;
+$font-size-base: 14px;
+$font-size-sm: 12px;
+
+// 原有color定义，从client的style中迁移过来
+$base_color: #3c485c;
+$blue_color: #1776ff;
+$blue_bg: #e6f4ff;
+$red_color: #e31430;
+$red_bg: #ffe6e5;
+$green_color: #1bb46d;
+$green_bg: #e6f5eb;
+$orange_color: #f0560a;
+$orange_bg: #fff2e6;
+$yellow_color: #fe9e17;
+$yellow_bg: #fff9e6;
+$gray_color: #97a3b7;
+$gray_bg: #eaedf2;
+$gray_color_border: #e3e6eb;
+$gray_color_deep: #5f7292;
+
+$font-family-base:
+  Pingfang SC,
+  MicrosoftYaHei,
+  Avenir,
+  Helvetica,
+  Arial,
+  sans-serif;
+
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": (
+      "base": #306bec,
+    ),
+  )
+);
+
+// 对话框垂直方向上(顶部, 底部)需要留足的(内)边距
+$dialog-breath-vertical: 12px;
+
+// 对话框水平方向上(左边, 右边)需要留足的边距, 它可以体现为内边距也可以为外边距, 也可以体现为几个内外边距的和
+// 总之, 就是要留足这么大的空间
+$dialog-breath-horizontal: 24px;

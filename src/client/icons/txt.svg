@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+    <path fill="#F0F0F0" stroke="#807777" stroke-opacity=".38" d="m11.35 3 4.4 4.7v8.92L4.03 17l-.4-13.62L11.34 3Z"/>
+    <path fill="#BEBEBE" d="M12.56 7.5h3.69l-4.69-5v4a1 1 0 0 0 1 1Z"/>
+      <path
+        d="M7.76 12.1H6.69V15h-.85v-2.9H4.79v-.65h2.97zM9.5 12.63l.59-1.18h.98l-1 1.76L11.1 15h-1l-.6-1.2-.6 1.2h-.97l1-1.8-.98-1.75h.98zM14.23 12.1h-1.07V15h-.85v-2.9h-1.05v-.65h2.97z"/>
+</svg>

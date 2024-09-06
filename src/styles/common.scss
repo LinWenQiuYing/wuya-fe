@@ -1,0 +1,234 @@
+@use "theme";
+@font-face {
+  font-family: "DingTalk";
+  src: url("../assets/fonts/DingTalk-JinBuTi.woff") format("woff");
+}
+
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+form,
+input,
+textarea,
+select,
+div {
+  padding: 0;
+  margin: 0;
+  // 之前当前项目作为乾坤微服务的一部分, 主项目是使用antd作为组件库, antd有重置所有的box-sizing为border-box
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: theme.$font-family-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: theme.$text-color-primary;
+  --el-color-primary: #086df4;
+  --primary-bg: #f6f8fe;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}
+
+.transChaos_flex {
+  display: flex;
+}
+
+.transChaos_flexB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transChaos_logoImg {
+  width: 24px;
+  height: 17px;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+
+  /* height: 4px; */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgb(0 0 0 / 20%);
+  background: rgb(61 60 60 / 30%);
+}
+
+::-webkit-scrollbar-track {
+  // -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgb(143 143 143 / 0%);
+}
+
+// element 样式修改
+.el-button {
+  border: none;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+el-button.is-disabled {
+  border-color: transparent;
+}
+
+.el-button--primary {
+  span {
+    color: #fff !important;
+  }
+}
+
+.el-input {
+  --el-input-border-color: transparent !important;
+  --el-input-hover-border-color: #1776ff !important;
+}
+
+.el-select {
+  --el-select-border-color-hover: #1776ff !important;
+}
+
+.el-drawer {
+  width: 35%;
+  background-color: rgb(255 255 255 / 80%);
+  backdrop-filter: blur(8px);
+}
+
+.el-drawer__header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e3e6eb;
+  margin-bottom: 10px;
+}
+
+.el-popover.el-popper {
+  min-width: 50px !important;
+}
+
+// .el-popconfirm {
+
+//   max-width: 236px !important;
+
+// }
+//.el-popper__arrow {
+//  display: none;
+//}
+
+// button
+.el-button--text {
+  padding: 4px 12px !important;
+}
+
+.el-button {
+  border-radius: 4px;
+}
+
+// 分页器
+.el-pagination__total {
+  margin-right: 16px !important;
+}
+
+.el-pagination__sizes {
+  margin-right: 16px !important;
+}
+
+.el-pagination__sizes .el-input__inner {
+  border-radius: 4px !important;
+}
+
+.el-pager li.el-icon {
+  width: 32px;
+  line-height: 32px;
+  height: 32px;
+  color: #333;
+}
+
+.el-pager li.el-icon svg {
+  width: 10px;
+  height: 10px;
+}
+
+.el-pagination__jump {
+  margin-left: 16px !important;
+}
+
+.el-pagination__jump .el-input {
+  margin-left: 5px !important;
+  border-radius: 4px !important;
+  line-height: 32px !important;
+}
+
+.el-pagination__jump .el-input__inner {
+  height: 32px !important;
+  line-height: 32px !important;
+}
+
+// 表格
+.el-table {
+  --el-table-border-color: #e3e6eb !important;
+  border-radius: 4px;
+}
+
+.el-table__cell {
+  border-right: none !important;
+}
+
+.el-table .el-table__header th.el-table__cell {
+  background: #edeff3;
+
+  //.cell {
+  //  position: relative;
+  //
+  //  &::after {
+  //    position: absolute;
+  //    right: 0;
+  //    content: '';
+  //    display: inline-block;
+  //    height: 20px;
+  //    width: 1px;
+  //    background: #D7D8E0;
+  //  }
+  //
+  //}
+  //
+  //&:last-child .cell {
+  //  &::after {
+  //    display: none;
+  //  }
+  //}
+}
+
+.el-input__wrapper {
+  border: 1px solid rgb(214 218 230 / 100%);
+}
+
+.el-radio__input.is-checked + span.el-radio__label {
+  color: var(--el-radio-text-color);
+}
+
+@media (max-width: 900px) {
+  #app {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+}

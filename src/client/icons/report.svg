@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>年度报告</title>
+    <defs>
+        <linearGradient x1="18.3710098%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8EA2FF" offset="0%"></stop>
+            <stop stop-color="#5D7FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-815, -938)">
+            <g id="年度报告" transform="translate(815, 938)">
+                <path d="M2,0 L14,0 C15.1045695,-2.02906125e-16 16,0.8954305 16,2 L16,14 C16,15.1045695 15.1045695,16 14,16 L2,16 C0.8954305,16 1.3527075e-16,15.1045695 0,14 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="矩形" fill="url(#linearGradient-1)"></path>
+                <rect id="矩形" fill="#FFFFFF" x="3" y="5" width="7.36363636" height="1.63636364" rx="0.818181818"></rect>
+                <rect id="矩形备份-3" fill="#FFFFFF" x="3" y="9.09090909" width="9.36363636" height="1.63636364" rx="0.818181818"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+{
+  // login configuration
+  entry: {
+    // set the prefer login entry, password or phone verification code
+    prefer: '/sign',
+  },
+  // whether redirect to the homepage automatically When accessing the login page, if already logged in
+  auto: true,
+  renewal: {
+    // token renewal interval, the value is a natural time representation such as 30s, 5m, 1h, 0.5d
+    interval: '4h'
+  },
+  // can it be accessed in guest mode?
+  guestMode: true,
+}

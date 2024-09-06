@@ -1,0 +1,18 @@
+@use "theme";
+
+body #nprogress {
+  .bar {
+    background: theme.$color-primary;
+  }
+
+  .peg {
+    box-shadow:
+      0 0 10px theme.$color-primary,
+      0 0 5px theme.$color-primary;
+  }
+
+  .spinner-icon {
+    border-top-color: theme.$color-primary;
+    border-left-color: theme.$color-primary;
+  }
+}

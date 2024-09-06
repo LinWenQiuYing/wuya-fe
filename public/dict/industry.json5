@@ -1,0 +1,58 @@
+[
+  {
+    name: '金融',
+    value: 'FINANCE',
+  },
+  {
+    name: 'IT与互联网',
+    value: 'IT_AND_INTERNET',
+  },
+  {
+    name: '交通',
+    value: 'TRANSPORTATION',
+  },
+  {
+    name: '教育',
+    value: 'EDUCATION',
+  },
+  {
+    name: '政府',
+    value: 'GOVERNMENT',
+  },
+  {
+    name: '流通与零售',
+    value: 'DISTRIBUTION_AND_RETAIL',
+  },
+  {
+    name: '能源与石化',
+    value: 'ENERGY_AND_PETROCHEMICAL',
+  },
+  {
+    name: '医疗卫生',
+    value: 'HEALTHCARE_AND_MEDICAL',
+  },
+  {
+    name: '制造业',
+    value: 'MANUFACTURING',
+  },
+  {
+    name: '综合集团',
+    value: 'CONGLOMERATE',
+  },
+  {
+    name: '电信运营商',
+    value: 'TELECOM_OPERATOR',
+  },
+  {
+    name: '建筑与地产',
+    value: 'CONSTRUCTION_AND_REAL_ESTATE',
+  },
+  {
+    name: '媒体',
+    value: 'MEDIA',
+  },
+  {
+    name: '其他',
+    value: 'OTHERS',
+  },
+]

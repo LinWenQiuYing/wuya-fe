@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "strict": true,
+    "allowJs": true,
+    "module": "esNext",
+    "target": "esNext",
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": ".",
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "audio-tracks-extractor",
+  "version": "0.0.1",
+  "description": "A util to extract audio tracks from video",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [
+    "audio"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "webm-muxer": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/dom-webcodecs": "^0.1.11"
+  }
+}

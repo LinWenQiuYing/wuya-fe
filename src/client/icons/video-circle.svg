@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="48.3%" y1="0%" y2="109.18%">
+      <stop offset="0%" stop-color="#E45AEF"/>
+      <stop offset="100%" stop-color="#FEEDF9"/>
+    </linearGradient>
+    <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F9EFFF" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="e" x1="50%" x2="34.99%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E44DFF"/>
+      <stop offset="100%" stop-color="#F76ADE"/>
+    </linearGradient>
+    <circle id="a" cx="21" cy="21" r="21"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M0 0h48v48H0z"/>
+    <g transform="translate(3 3)">
+      <mask id="c" fill="#fff">
+        <use xlink:href="#a"/>
+      </mask>
+      <circle cx="21" cy="21" r="21" fill="url(#b)" fill-rule="nonzero" mask="url(#c)"/>
+      <g mask="url(#c)">
+        <path fill="url(#d)" d="M12.23 4.9 8.1 0H3.4l4.15 4.9h4.68Zm12.18 0L20.27 0h-4.69l4.14 4.9h4.69Zm-6.09 0L14.18 0H9.5l4.13 4.9h4.7ZM26.17 0h-4.5l4.14 4.9H28V1.85A1.8 1.8 0 0 0 26.17 0ZM2.01 0h-.18A1.8 1.8 0 0 0 0 1.84v3.07h6.15L2 0ZM0 25.16C0 26.2.8 27 1.83 27h24.34A1.8 1.8 0 0 0 28 25.16V6.14H0v19.02Z" transform="translate(7 9)"/>
+        <path fill="#ED8CFF" fill-rule="nonzero" d="M17 21.32c0-.9.73-1.32 1.56-1.32.26 0 .57.05.83.21l5.92 3.47a1.5 1.5 0 0 1 0 2.64l-5.92 3.47a1.5 1.5 0 0 1-.83.21c-.83 0-1.56-.42-1.56-1.32v-7.36Z"/>
+      </g>
+      <g fill-rule="nonzero" mask="url(#c)">
+        <path fill="url(#e)" d="M9 0C5.14 0 2 3.09 2 6.88a6.91 6.91 0 0 0 3.66 6.06v2.92c0 1.18 1.1 2.14 2.44 2.14h1.8c1.34 0 2.44-.96 2.44-2.14v-2.92A6.91 6.91 0 0 0 16 6.88C16 3.08 12.86 0 9 0Z" transform="translate(23 22)"/>
+      </g>
+      <g mask="url(#c)">
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" d="M29.67 28.41 30.72 31l1.45-2.59L33.63 31l1.04-2.59"/>
+      </g>
+    </g>
+  </g>
+</svg>

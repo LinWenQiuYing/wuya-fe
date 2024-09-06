@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+    <path fill="#F0F0F0" stroke="#807777" stroke-opacity=".38" d="m11.35 3 4.4 4.7v8.92L4.03 17l-.4-13.62L11.34 3Z"/>
+    <path fill="#BEBEBE" d="M12.56 7.5h3.69l-4.69-5v4a1 1 0 0 0 1 1Z"/>
+    <path fill="#42954C"
+          d="m7.36 10.99 3.08 3 2.14-1.42a.2.2 0 0 1 .26.03l2.15 2.22v.98a.2.2 0 0 1-.2.2H4.77a.2.2 0 0 1-.2-.2v-3.2l2.54-1.64a.2.2 0 0 1 .25.03Z"/>
+    <circle cx="11.25" cy="10.25" r="1.25" fill="#FF9925"/>
+</svg>

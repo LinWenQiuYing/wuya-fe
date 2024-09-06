@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "strict": true,
+    "module": "esNext",
+    "target": "esNext",
+    "composite": true,
+    "rootDir": ".",
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+}

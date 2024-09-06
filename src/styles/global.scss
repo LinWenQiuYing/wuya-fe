@@ -1,0 +1,18 @@
+@use "theme";
+/**
+  默认主题 可被全局引用
+
+  约定:
+  1. 使用BEM方式命名
+  2. Block名为infinity
+ */
+
+// 默认链接样式
+.infinity-link_default {
+  color: theme.$color-primary;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

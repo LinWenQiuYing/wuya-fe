@@ -1,0 +1,13 @@
+{
+  "name": "condition",
+  "version": "0.0.1",
+  "description": "A way to description complex logic operation",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [
+    "condition",
+    "logic operation"
+  ],
+  "author": "longguo.wang@transwarp.io",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+     style="--background-color:#2D364D; --foreground-color: white; --animation-play-state: running">
+  <style>
+    @keyframes animation-transform-height-double { to {height: calc(var(--height) * 2)} }
+    @keyframes animation-transform-height-half { to {height: calc(var(--height) / 2)} }
+    @keyframes animation-transform-height-add-half { to {height: calc(var(--height) * 1.5)} }
+    .r1 {
+      --height: 2px;
+      height: var(--height);
+      animation: animation-transform-height-double 0.4s ease-in infinite alternate;
+      animation-play-state: var(--animation-play-state);
+      animation-delay: 0.1s;
+    }
+    .r2 {
+      --height: 7px;
+      height: var(--height);
+      animation: animation-transform-height-half 0.4s ease-in infinite alternate;
+      animation-play-state: var(--animation-play-state);
+    }
+    .r3 {
+      --height: 4px;
+      height: var(--height);
+      animation: animation-transform-height-add-half 0.4s ease-in infinite alternate;
+      animation-play-state: var(--animation-play-state);
+    }
+  </style>
+  <g fill="var(--background-color)">
+    <path d="M6.968 17.118 3 18l.882-3.968a7.5 7.5 0 1 1 3.087 3.087Z"/>
+  </g>
+  <g fill="var(--foreground-color)" transform="matrix(1 0 0 -1 0 20)">
+    <rect x="6" y="6" width="2" class="r1" />
+    <rect x="9.5" y="6" width="2" class="r2" />
+    <rect x="13" y="6" width="2" class="r3" />
+  </g>
+</svg>
+

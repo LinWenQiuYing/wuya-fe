@@ -1,0 +1,72 @@
+image: 172.16.1.99/aip/ui/builder
+
+stages:
+  - deploy
+
+test:
+  stage: deploy
+  except:
+    - master
+    - dev
+    - /^infinity-/
+  script:
+    - set -e
+    - pnpm install --no-frozen-lockfile
+    - pnpm build
+  tags:
+    - k8s
+
+build alpha:
+  stage: deploy
+  only:
+    - dev
+  script:
+    - set -e
+    - pnpm install --no-frozen-lockfile
+    - pnpm build
+    - . pre-ssh.sh
+    - rsync -av dist/web/ root@172.18.20.142:/mnt/disk2/infinity/nginx/html
+    - rsync -av --del dist/web/ root@172.18.20.142:/mnt/disk2/infinity/nginx/html-latest
+  artifacts:
+    expire_in: 24h
+    paths:
+      - dist/web/
+  tags:
+    - k8s
+
+build beta:
+  stage: deploy
+  only:
+    - master
+  script:
+    - set -e
+    - pnpm install --no-frozen-lockfile
+    - pnpm build
+    - . pre-ssh.sh
+    - rsync -av dist/web/ root@172.18.192.200:/mnt/disk2/tkh/nginx/html
+    - rsync -av dist/web/ root@172.18.192.201:/mnt/disk2/tkh/nginx/html
+  artifacts:
+    expire_in: 24h
+    paths:
+      - dist/web/
+  tags:
+    - k8s
+
+build rc:
+  stage: deploy
+  only:
+    - /^infinity-/
+  script:
+    - set -e
+    - pnpm install --no-frozen-lockfile
+    - pnpm build
+    - . pre-ssh.sh
+    - rsync -av dist/web/ root@172.18.192.200:/mnt/disk2/tkh/nginx/html
+    - rsync -av dist/web/ root@172.18.192.201:/mnt/disk2/tkh/nginx/html
+    - rsync -av --del dist/web/ root@172.18.20.142:/mnt/disk2/infinity/nginx/${CI_COMMIT_REF_NAME}
+  artifacts:
+    expire_in: 24h
+    paths:
+      - dist/web/
+  tags:
+    - k8s

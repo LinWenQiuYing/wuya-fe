@@ -1,0 +1,12 @@
+{
+  "name": "local-ident",
+  "version": "0.0.1",
+  "description": "A way to generate pretty, flat, readable cssModule selector names.",
+  "main": "src/index.ts",
+  "type": "module",
+  "keywords": [
+    "cssModule"
+  ],
+  "author": "longguo.wang@transwarp.io",
+  "license": "ISC"
+}

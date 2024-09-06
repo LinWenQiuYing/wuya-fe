@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    /** baseUrl 用来告诉编译器到哪里去查找模块，使用非相对模块时必须配置此项 */
+    "baseUrl": ".",
+    /** 非相对模块导入的路径映射配置，根据 baseUrl 配置进行路径计算 */
+    "paths": {
+      "#public/*": ["public/*"],
+      "@/*": ["src/*"],
+      "#captcha": ["packages/captcha"],
+      "#condition": ["packages/condition"],
+      "#local-ident": ["packages/local-ident"],
+      "#audio-tracks-extractor": ["packages/audio-tracks-extractor"]
+    }
+  },
+  "plugins": [{ "name": "typescript-plugin-css-modules" }],
+  "include": ["src", "**.ts"],
+  "exclude": ["node_modules", "dist"],
+  "references": [
+    {"path": "packages/local-ident" },
+    {"path": "packages/captcha"},
+    {"path": "packages/condition"},
+    {"path": "packages/audio-tracks-extractor"}
+  ]
+}

@@ -1,0 +1,79 @@
+/*version pdfjs-4.0.379-dist*/
+
+#viewerContainer {
+  background-color: #fff;
+}
+
+.pdfViewer {
+  background: #fff;
+
+  .page {
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
+
+.toolbarField {
+  background: #191B1C;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-size: 12px !important;
+  height: 18px;
+}
+
+.toolbarLabel {
+  color: #fff;
+}
+
+.dropdownToolbarButton {
+  color: #fff;
+  background: #323639;
+
+  #scaleSelect {
+    color: #fff;
+    font-size: 12px;
+
+    &:hover {
+      background: #323639;
+    }
+
+    &:focus-visible {
+      background: #323639;
+    }
+  }
+
+}
+
+
+.toolbar {
+  --toolbar-bg-color: #323639;
+  --toolbar-icon-bg-color: #fff;
+  --toggled-btn-color: #fff;
+  --toggled-btn-bg-color: #fff;
+  --dropdown-btn-bg-color: #323639;
+  --toolbar-icon-opacity: 1;
+
+  .toolbarButton:is(:hover, :focus-visible)::before, .secondaryToolbarButton:is(:hover, :focus-visible)::before, .toolbarButton:is(:hover, :focus-visible)::before, .secondaryToolbarButton:is(:hover, :focus-visible)::before {
+    background-color: var(--toolbar-icon-hover-bg-color);
+  }
+
+  :is(.toolbarButton, .secondaryToolbarButton).toggled::before {
+    background-color: var(--toolbar-icon-hover-bg-color);
+  }
+
+  .dropdownToolbarButton:is(:hover, :focus-visible, :active)::after {
+    background-color: var(--toolbar-icon-bg-color);
+  }
+}
+
+.findbar {
+  .toolbarField {
+    color: #323639;
+    background-color: #fff;
+  }
+
+  .toolbarLabel {
+    color: #323639;
+  }
+}
